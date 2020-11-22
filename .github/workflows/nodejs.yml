@@ -22,8 +22,8 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
           ftp-server: ftp://hyu8135250001.my3w.com/htdocs
-          ftp-username: ${{ secrets.ftp_user }}
-          ftp-password: ${{ secrets.ftp_pwd }}
+          ftp-username: ${{ secrets.FTP_USER }}
+          ftp-password: ${{ secrets.FTP_PWD }}
           local-dir: build/
         env:
           CI: true
