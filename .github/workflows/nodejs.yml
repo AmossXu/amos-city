@@ -19,7 +19,7 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
           ftp-server: ftp://hyu8135250001.my3w.com/htdocs
           ftp-username: ${{ secrets.FTP_USER }}
