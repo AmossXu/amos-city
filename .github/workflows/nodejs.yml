@@ -21,7 +21,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://hyu8135250001.my3w.com/htdocs
+          ftp-server: sftp://hyu8135250001.my3w.com:21/htdocs
           ftp-username: ${{ secrets.FTP_USER }}
           ftp-password: ${{ secrets.FTP_PWD }}
           local-dir: build/
