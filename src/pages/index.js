@@ -71,14 +71,14 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl('blog/')}>
+              冲冲冲！
             </Link>
           </div>
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
+        {/* {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
@@ -88,7 +88,7 @@ function Home() {
               </div>
             </div>
           </section>
-        )}
+        )} */}
       </main>
     </Layout>
   );

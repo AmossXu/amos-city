@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    常用: ['js-utils', 'react-dva'],
+    规范: ['jts-standard'],
   },
 };

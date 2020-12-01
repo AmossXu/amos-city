@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Amos',
+  tagline: '笔记-分享-生活',
+  url: 'https://github.com/AmossXu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Amos', // Usually your GitHub org/user name.
+  projectName: 'amos-city', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Amos',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -19,12 +19,12 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          label: '文档',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: '博客', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/AmossXu',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,52 +32,27 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // links: [
+      //   {
+      //     title: '文档',
+      //     items: [
+      //     ],
+      //   },
+      //   {
+      //     title: '更多',
+      //     items: [
+      //       {
+      //         label: '博客',
+      //         to: 'blog',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/facebook/docusaurus',
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()}，浙ICP备2020042248号 ，Built with Docusaurus.`,
     },
   },
   presets: [
@@ -91,8 +66,9 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
+          // showReadingTime: true,
+          // blogSidebar: require.resolve('./blogSideBar.js'),
+          // Please change this to your repo.blogSidebar
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
