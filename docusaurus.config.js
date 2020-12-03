@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Amos',
-  tagline: '笔记-分享-生活',
+  title: 'Amos-徐振雄',
+  tagline: '码农【前端小老弟】-摄影【器材越来越小的咸鱼】-音乐【想学钢琴但只会吉他T T】',
   url: 'https://github.com/AmossXu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'Amos', // Usually your GitHub org/user name.
   projectName: 'amos-city', // Usually your repo name.
   themeConfig: {

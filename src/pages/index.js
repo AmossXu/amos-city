@@ -8,32 +8,31 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Ui 组件库模板',
+    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        为公司编写用于发布至npm仓库的组件库，此项目为测试可用性的demo，内容不多但五脏俱全。
+        包含组件编写、storybook预览组件各类用法、代码、ts props定义等。<a href="https://github.com/AmossXu/amos-ui-components">Github仓库</a>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: '本博客项目',
+    // imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        本项目内容不多，基于docusaurus框架的博客项目，内容主要为
+        自己平时的一些博客编写、文档纪要、以及自我展示平台。<a href="https://github.com/AmossXu/amos-city">Github仓库</a>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: '待开发',
+    // imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        等等等等等等等等等等等等等等等等等等等等等等等等等等等等等等等等
       </>
     ),
   },
@@ -72,13 +71,13 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('blog/')}>
-              冲冲冲！
+              冲冲冲！看博客
             </Link>
           </div>
         </div>
       </header>
       <main>
-        {/* {features && features.length > 0 && (
+        {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
@@ -88,7 +87,7 @@ function Home() {
               </div>
             </div>
           </section>
-        )} */}
+        )}
       </main>
     </Layout>
   );
